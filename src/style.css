@@ -1,0 +1,91 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+
+    width: 1920px;
+    height: 712px;
+    background-image: linear-gradient(#0038FF, #070a14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adress-input {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adress-input input:first-child {
+
+    border: none;
+    height: 20px;
+    width: 200px;
+}
+
+.adress-input input:last-child {
+
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color:#070a14 ;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(212, 200, 200);
+
+}
+
+.adress-input input:last-child:hover {
+
+    cursor: pointer;
+}
+
+.cloud-weather {
+
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+
+}
+
+.cloud-weather:hover {
+
+    cursor: pointer;
+
+}
+
+#map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather {
+
+    background-image: linear-gradient(#4869e2, #1d2c5e );
+    color: rgb(245, 238, 238);
+    width: 35%;
+    height: 65%;
+    z-index: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
